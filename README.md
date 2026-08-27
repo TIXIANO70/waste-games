@@ -1,33 +1,22 @@
-# Waste Games
-
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
-
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
-
-## Platforms
-
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
-
-## Gradle
-
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
-
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
-
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+This repo is dedicated to the devolepment of a final course project.
+# RAMSHI
+ A 1v1 multiplayer game composed of multiple competitive minigames.
+ Where the minigame changes every 10 seconds.
+ For now the list of minigames is Snake and Pou
+## Minigames 
+### Snake 
+ It´s the classic snake game in mode 1v1, where the one who gets more apples or the one who lasts longer.
+### Pou 
+ Whoever who gets to reach the highest plataform without fallto the abyss wins.
+## Stack
++ Java with the library Libgdx.
++ Github as the VCS.
++ Notion to manage task among the team.
+### Temporal mindmap
+~~~text 
+MainGame 
+|
+|-- Window
+  |--Minigames--Snake
+              |-Pou
+~~~
