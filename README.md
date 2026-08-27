@@ -21,4 +21,4 @@ MainGame
               |-Pou
 ~~~
 ### Extras 
-If you want more information go to [Libgdx Info](/home/tixiano/Projects/agy-projects/waste-games/Readme_from_libgdx)
+If you want more information go to [Libgdx Info](Readme_from_libgdx)
