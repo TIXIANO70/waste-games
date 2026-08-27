@@ -20,3 +20,5 @@ MainGame
   |--Minigames--Snake
               |-Pou
 ~~~
+### Extras 
+If you want more information go to [[/home/tixiano/Projects/agy-projects/waste-games/Readme_from_libgdx|Libgdx Info]]
